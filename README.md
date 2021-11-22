@@ -20,7 +20,7 @@ limitations under the License.
 
 # Inspect Stream
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Writable stream][writable-stream] for inspecting streamed data.
 
@@ -245,8 +245,8 @@ s1.end();
 
 ## See Also
 
--   [`@stdlib/streams/node/debug-sink`][@stdlib/streams/node/debug-sink]: writable stream for debugging stream pipelines.
--   [`@stdlib/streams/node/inspect`][@stdlib/streams/node/inspect]: transform stream for inspecting streamed data.
+-   <span class="package-name">[`@stdlib/streams/node/debug-sink`][@stdlib/streams/node/debug-sink]</span><span class="delimiter">: </span><span class="description">writable stream for debugging stream pipelines.</span>
+-   <span class="package-name">[`@stdlib/streams/node/inspect`][@stdlib/streams/node/inspect]</span><span class="delimiter">: </span><span class="description">transform stream for inspecting streamed data.</span>
 
 </section>
 
@@ -297,8 +297,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/streams-node-inspect-sink/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/streams-node-inspect-sink?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/streams-node-inspect-sink.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/streams-node-inspect-sink/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/

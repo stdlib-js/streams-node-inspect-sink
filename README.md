@@ -24,38 +24,30 @@ limitations under the License.
 
 > [Writable stream][writable-stream] for inspecting streamed data.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/streams-node-inspect-sink
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-inspectSinkStream = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var inspectSinkStream = require( 'path/to/vendor/umd/streams-node-inspect-sink/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.inspectSinkStream;
-})();
-</script>
+var inspectSinkStream = require( '@stdlib/streams-node-inspect-sink' );
 ```
 
 <a name="inspect-sink-stream"></a>
@@ -186,14 +178,9 @@ This method accepts the same `options` as [`inspectSinkStream()`](#inspect-sink-
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-transform@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {.factory;
+```javascript
+var parseJSON = require( '@stdlib/utils-parse-json' );
+var transformFactory = require( '@stdlib/streams-node-transform' ).factory;
 var inspect = require( '@stdlib/streams-node-inspect-sink' ).objectMode;
 
 function parse( chunk, enc, clbk ) {
@@ -252,11 +239,6 @@ for ( i = 0; i < 100; i++ ) {
     s1.write( v, 'utf8' );
 }
 s1.end();
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -355,9 +337,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/streams/node/debug-sink]: https://github.com/stdlib-js/streams-node-debug-sink/tree/umd
+[@stdlib/streams/node/debug-sink]: https://github.com/stdlib-js/streams-node-debug-sink
 
-[@stdlib/streams/node/inspect]: https://github.com/stdlib-js/streams-node-inspect/tree/umd
+[@stdlib/streams/node/inspect]: https://github.com/stdlib-js/streams-node-inspect
 
 <!-- </related-links> -->
 

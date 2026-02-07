@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import inspectSinkStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@esm/index.mjs';
+import inspectSinkStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory, objectMode } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@esm/index.mjs';
+import { factory, objectMode } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@v0.2.3-esm/index.mjs';
 ```
 
 <a name="inspect-sink-stream"></a>

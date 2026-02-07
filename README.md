@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import inspectSinkStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@deno/mod.js';
+import inspectSinkStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@v0.2.3-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory, objectMode } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@deno/mod.js';
+import { factory, objectMode } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@v0.2.3-deno/mod.js';
 ```
 
 <a name="inspect-sink-stream"></a>
